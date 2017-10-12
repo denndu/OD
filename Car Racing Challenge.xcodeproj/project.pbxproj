@@ -40,7 +40,6 @@
 		DB384C221AC0D90E00C2BB32 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB384C181AC0D90E00C2BB32 /* Configs.swift */; };
 		DB384C231AC0D90E00C2BB32 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB384C191AC0D90E00C2BB32 /* DataProvider.swift */; };
 		DB384C241AC0D90E00C2BB32 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB384C1A1AC0D90E00C2BB32 /* Extensions.swift */; };
-		DB384C251AC0D90E00C2BB32 /* GameCenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB384C1B1AC0D90E00C2BB32 /* GameCenterController.swift */; };
 		DB384C261AC0D90E00C2BB32 /* SKExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB384C1C1AC0D90E00C2BB32 /* SKExtensions.swift */; };
 		DB384C281AC0D90E00C2BB32 /* UICustomDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB384C1E1AC0D90E00C2BB32 /* UICustomDevice.swift */; };
 		DB384C291AC0D90E00C2BB32 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB384C1F1AC0D90E00C2BB32 /* UIExtensions.swift */; };
@@ -60,7 +59,6 @@
 		DB5E47FB1ADF43260029B8DD /* Levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB5E47FA1ADF43260029B8DD /* Levels.plist */; };
 		DB5E47FF1ADF58E30029B8DD /* AsyncHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5E47FE1ADF58E30029B8DD /* AsyncHelper.swift */; };
 		DB602CBE1CB36C5B00791F1C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB602CBC1CB36C5B00791F1C /* Launch Screen.storyboard */; };
-		DB602CC01CB36D7E00791F1C /* ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DB602CBF1CB36D7E00791F1C /* ipad.png */; };
 		DB6FF61E1ABD272700F7B073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6FF61C1ABD272700F7B073 /* Main.storyboard */; };
 		DB717E111AEC3D7A00A0C90A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB717E0F1AEC3D6E00A0C90A /* SystemConfiguration.framework */; };
 		DB717E131AEC3E9A00A0C90A /* ConnectivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB717E121AEC3E9A00A0C90A /* ConnectivityHelper.swift */; };
@@ -73,12 +71,12 @@
 		DB9E31801AD4D78C00C27087 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9E317E1AD4D77500C27087 /* Social.framework */; };
 		DB9E31841AD4DFB800C27087 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9E31821AD4DFB200C27087 /* Twitter.framework */; };
 		DB9E31871AD4E1B400C27087 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9E31851AD4E1AE00C27087 /* Accounts.framework */; };
-		DB9E31891AD4E2EE00C27087 /* export_icon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9E31881AD4E2EE00C27087 /* export_icon_180.png */; };
 		DBB20A4B1ABE3D1C0050AA36 /* GameStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB20A4A1ABE3D1C0050AA36 /* GameStatusView.swift */; };
 		DBB20A4D1ABE5BA20050AA36 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB20A4C1ABE5BA20050AA36 /* GameKit.framework */; };
 		DBCA18BF1AE0C3BA008E93A9 /* TouchAreas.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCA18BE1AE0C3BA008E93A9 /* TouchAreas.png */; };
 		DBD63E311AC7669100F3A3C3 /* Instructions.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD63E301AC7669100F3A3C3 /* Instructions.png */; };
 		DBFBA0F61AC4B93F00BD98D7 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFBA0F41AC4B93700BD98D7 /* iAd.framework */; };
+		F58F53321F8F476A00B1F475 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F58F53341F8F476A00B1F475 /* InfoPlist.strings */; };
 		F5B7302B1F8B74C6005B4F3B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5B7302D1F8B74C6005B4F3B /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -210,8 +208,7 @@
 		95B0093F1F8BC844007594C3 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		DB0600C01ADCABF700745AB8 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		DB1366521AD23992009A33DB /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
-		DB2E84371AAD338D0009E321 /* Car Racing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Racing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB2E843B1AAD338D0009E321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2E84371AAD338D0009E321 /* BJ racing - old driver game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BJ racing - old driver game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2E843C1AAD338D0009E321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB2E84401AAD338D0009E321 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		DB2E84421AAD338D0009E321 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -234,7 +231,6 @@
 		DB384C181AC0D90E00C2BB32 /* Configs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Configs.swift; path = Extensions/Configs.swift; sourceTree = "<group>"; };
 		DB384C191AC0D90E00C2BB32 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataProvider.swift; path = Extensions/DataProvider.swift; sourceTree = "<group>"; };
 		DB384C1A1AC0D90E00C2BB32 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Extensions/Extensions.swift; sourceTree = "<group>"; };
-		DB384C1B1AC0D90E00C2BB32 /* GameCenterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameCenterController.swift; path = Extensions/GameCenterController.swift; sourceTree = "<group>"; };
 		DB384C1C1AC0D90E00C2BB32 /* SKExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKExtensions.swift; path = Extensions/SKExtensions.swift; sourceTree = "<group>"; };
 		DB384C1E1AC0D90E00C2BB32 /* UICustomDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UICustomDevice.swift; path = Extensions/UICustomDevice.swift; sourceTree = "<group>"; };
 		DB384C1F1AC0D90E00C2BB32 /* UIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIExtensions.swift; path = Extensions/UIExtensions.swift; sourceTree = "<group>"; };
@@ -256,7 +252,6 @@
 		DB5E47FA1ADF43260029B8DD /* Levels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Levels.plist; sourceTree = "<group>"; };
 		DB5E47FE1ADF58E30029B8DD /* AsyncHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncHelper.swift; sourceTree = "<group>"; };
 		DB602CBD1CB36C5B00791F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Car Racing Challenge/Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
-		DB602CBF1CB36D7E00791F1C /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ipad.png; path = Images/ipad.png; sourceTree = "<group>"; };
 		DB6FF61D1ABD272700F7B073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB717E0F1AEC3D6E00A0C90A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DB717E121AEC3E9A00A0C90A /* ConnectivityHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityHelper.swift; sourceTree = "<group>"; };
@@ -269,12 +264,14 @@
 		DB9E317E1AD4D77500C27087 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		DB9E31821AD4DFB200C27087 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		DB9E31851AD4E1AE00C27087 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
-		DB9E31881AD4E2EE00C27087 /* export_icon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = export_icon_180.png; path = Images.xcassets/AppIcon.appiconset/export_icon_180.png; sourceTree = "<group>"; };
 		DBB20A4A1ABE3D1C0050AA36 /* GameStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStatusView.swift; sourceTree = "<group>"; };
 		DBB20A4C1ABE5BA20050AA36 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		DBCA18BE1AE0C3BA008E93A9 /* TouchAreas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TouchAreas.png; path = Images/TouchAreas.png; sourceTree = "<group>"; };
 		DBD63E301AC7669100F3A3C3 /* Instructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Instructions.png; path = Images/Instructions.png; sourceTree = "<group>"; };
 		DBFBA0F41AC4B93700BD98D7 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		F55E836D1F8F4205003147B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		F58F53331F8F476A00B1F475 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		F5AF6D4D1F8DF3550023FCE3 /* ipad-china-750.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-china-750.png"; sourceTree = "<group>"; };
 		F5B7302C1F8B74C6005B4F3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F5B7302E1F8B74D3005B4F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F5B7302F1F8B7525005B4F3B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -357,7 +354,7 @@
 		DB2E84381AAD338D0009E321 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB2E84371AAD338D0009E321 /* Car Racing.app */,
+				DB2E84371AAD338D0009E321 /* BJ racing - old driver game.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -391,8 +388,9 @@
 			children = (
 				DB5E47FA1ADF43260029B8DD /* Levels.plist */,
 				F5B7302D1F8B74C6005B4F3B /* Localizable.strings */,
-				DB2E843B1AAD338D0009E321 /* Info.plist */,
+				F55E835C1F8F41ED003147B3 /* Info.plist */,
 				DB7A0BD41ACCCF2E0008B581 /* Products.plist */,
+				F58F53341F8F476A00B1F475 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -468,7 +466,6 @@
 		DB9E31761AD4BACB00C27087 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DB384C1B1AC0D90E00C2BB32 /* GameCenterController.swift */,
 				95B0093F1F8BC844007594C3 /* WebViewController.swift */,
 				DB8C315E1AC620EB0027E949 /* PurchaseController.swift */,
 				DB9E317A1AD4D70B00C27087 /* SocialController.swift */,
@@ -494,9 +491,8 @@
 		DBD63E2F1AC7668800F3A3C3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				DB602CBF1CB36D7E00791F1C /* ipad.png */,
+				F5AF6D4D1F8DF3550023FCE3 /* ipad-china-750.png */,
 				DBCA18BE1AE0C3BA008E93A9 /* TouchAreas.png */,
-				DB9E31881AD4E2EE00C27087 /* export_icon_180.png */,
 				DB3D62601ACE0B4B001BC9D9 /* ConfigIcon.png */,
 				DBD63E301AC7669100F3A3C3 /* Instructions.png */,
 			);
@@ -521,7 +517,7 @@
 			);
 			name = "Car Racing Challenge";
 			productName = "Car Racing Chellenge";
-			productReference = DB2E84371AAD338D0009E321 /* Car Racing.app */;
+			productReference = DB2E84371AAD338D0009E321 /* BJ racing - old driver game.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -701,7 +697,6 @@
 			files = (
 				DBD63E311AC7669100F3A3C3 /* Instructions.png in Resources */,
 				DB3D62671ACE4A0F001BC9D9 /* LCDMono2Normal.ttf in Resources */,
-				DB602CC01CB36D7E00791F1C /* ipad.png in Resources */,
 				DB384C0C1AC0D86C00C2BB32 /* pato.wav in Resources */,
 				DB384C0B1AC0D86C00C2BB32 /* level_up.wav in Resources */,
 				DB602CBE1CB36C5B00791F1C /* Launch Screen.storyboard in Resources */,
@@ -715,7 +710,6 @@
 				DB384C141AC0D86C00C2BB32 /* vel_4.wav in Resources */,
 				DB3D62651ACE4A0F001BC9D9 /* LCDMono2Bold.ttf in Resources */,
 				DB3D62611ACE0B4B001BC9D9 /* ConfigIcon.png in Resources */,
-				DB9E31891AD4E2EE00C27087 /* export_icon_180.png in Resources */,
 				F5B7302B1F8B74C6005B4F3B /* Localizable.strings in Resources */,
 				DB384C0E1AC0D86C00C2BB32 /* Randomize.wav in Resources */,
 				DB384C0F1AC0D86C00C2BB32 /* menu_open.wav in Resources */,
@@ -726,6 +720,7 @@
 				DB384C131AC0D86C00C2BB32 /* vel_3.wav in Resources */,
 				DB384C0D1AC0D86C00C2BB32 /* Pickup_Coin.wav in Resources */,
 				DBCA18BF1AE0C3BA008E93A9 /* TouchAreas.png in Resources */,
+				F58F53321F8F476A00B1F475 /* InfoPlist.strings in Resources */,
 				DB384C0A1AC0D86C00C2BB32 /* Explosion2.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -759,7 +754,6 @@
 				DB0600C11ADCABF700745AB8 /* AlertController.swift in Sources */,
 				DB384C291AC0D90E00C2BB32 /* UIExtensions.swift in Sources */,
 				DB384C221AC0D90E00C2BB32 /* Configs.swift in Sources */,
-				DB384C251AC0D90E00C2BB32 /* GameCenterController.swift in Sources */,
 				DB525E7F1ABDF19F00959D26 /* Fonts.swift in Sources */,
 				DB384C2A1AC0D90E00C2BB32 /* Utils.swift in Sources */,
 				DB2E84411AAD338D0009E321 /* GameScene.swift in Sources */,
@@ -803,6 +797,22 @@
 				DB6FF61D1ABD272700F7B073 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F55E835C1F8F41ED003147B3 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55E836D1F8F4205003147B3 /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		F58F53341F8F476A00B1F475 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58F53331F8F476A00B1F475 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		F5B7302D1F8B74C6005B4F3B /* Localizable.strings */ = {
@@ -931,7 +941,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = old.driver.d;
-				PRODUCT_NAME = "Car Racing";
+				PRODUCT_NAME = "BJ racing - old driver game";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
@@ -966,7 +976,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = old.driver.d;
-				PRODUCT_NAME = "Car Racing";
+				PRODUCT_NAME = "BJ racing - old driver game";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DB2E84361AAD338D0009E321"
-               BuildableName = "Car Racing.app"
+               BuildableName = "BJ racing - old driver game.app"
                BlueprintName = "Car Racing Challenge"
                ReferencedContainer = "container:Car Racing Challenge.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB2E84361AAD338D0009E321"
-            BuildableName = "Car Racing.app"
+            BuildableName = "BJ racing - old driver game.app"
             BlueprintName = "Car Racing Challenge"
             ReferencedContainer = "container:Car Racing Challenge.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB2E84361AAD338D0009E321"
-            BuildableName = "Car Racing.app"
+            BuildableName = "BJ racing - old driver game.app"
             BlueprintName = "Car Racing Challenge"
             ReferencedContainer = "container:Car Racing Challenge.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB2E84361AAD338D0009E321"
-            BuildableName = "Car Racing.app"
+            BuildableName = "BJ racing - old driver game.app"
             BlueprintName = "Car Racing Challenge"
             ReferencedContainer = "container:Car Racing Challenge.xcodeproj">
          </BuildableReference>
