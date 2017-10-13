@@ -78,6 +78,7 @@
 		DBFBA0F61AC4B93F00BD98D7 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFBA0F41AC4B93700BD98D7 /* iAd.framework */; };
 		F58F53321F8F476A00B1F475 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F58F53341F8F476A00B1F475 /* InfoPlist.strings */; };
 		F5B7302B1F8B74C6005B4F3B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5B7302D1F8B74C6005B4F3B /* Localizable.strings */; };
+		F5E9CA3B1F90BF8F006A0068 /* Armour_Bd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5E9CA391F90BB72006A0068 /* Armour_Bd.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -275,6 +276,7 @@
 		F5B7302C1F8B74C6005B4F3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F5B7302E1F8B74D3005B4F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F5B7302F1F8B7525005B4F3B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F5E9CA391F90BB72006A0068 /* Armour_Bd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Armour_Bd.ttf; path = Fonts/Armour_Bd.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -456,6 +458,7 @@
 		DB525E721ABDEF5500959D26 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				F5E9CA391F90BB72006A0068 /* Armour_Bd.ttf */,
 				DB3D62621ACE4A0F001BC9D9 /* LCDMono2Bold.ttf */,
 				DB3D62631ACE4A0F001BC9D9 /* LCDMono2Light.ttf */,
 				DB3D62641ACE4A0F001BC9D9 /* LCDMono2Normal.ttf */,
@@ -697,6 +700,7 @@
 			files = (
 				DBD63E311AC7669100F3A3C3 /* Instructions.png in Resources */,
 				DB3D62671ACE4A0F001BC9D9 /* LCDMono2Normal.ttf in Resources */,
+				F5E9CA3B1F90BF8F006A0068 /* Armour_Bd.ttf in Resources */,
 				DB384C0C1AC0D86C00C2BB32 /* pato.wav in Resources */,
 				DB384C0B1AC0D86C00C2BB32 /* level_up.wav in Resources */,
 				DB602CBE1CB36C5B00791F1C /* Launch Screen.storyboard in Resources */,

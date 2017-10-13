@@ -1,6 +1,4 @@
-Materials
 Carthage
-build.pl
 *.gcno
 
 # CocoaPods
@@ -17,12 +15,6 @@ build.pl
 # Carthage/Checkouts
 
 #Carthage/Build
-output
-Logs
-ModuleCache
-fastlane/report.xml
-/Preview.html
-/fastlane/screenshots
 *.gcno
 
 # CocoaPods
@@ -41,24 +33,12 @@ ies.
 # Carthage/Checkouts
 
 #Carthage/Build
-output
-Logs
-ModuleCache
-fastlane/report.xml
-/Preview.html
-/fastlane/screenshots
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
 xcuserdata
 .gitreview
 
 ## Other
 *.xccheckout
 *.xcworkspace
-*.moved-aside
 *.xcuserstate
 *.xcscmblueprint
 
@@ -67,7 +47,5 @@ xcuserdata
 .DS_Store
 
 ## Obj-C/Swift specific
-*.hmap
-*.ipa
 
 *.gcno
