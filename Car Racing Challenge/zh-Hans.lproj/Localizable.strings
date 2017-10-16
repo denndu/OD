@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  Car Racing Challenge
+
+  Created by Dennis Du on 2017/10/9.
+  Copyright © 2017年 Alex Ongarato. All rights reserved.
+*/
+//"PLAY" = "开始";
+//
+//"TRY AGAIN" = "再试一次";
+//
+//"exit" = "退出";
+//
+//"racing old driver" = "赛车老司机";
+//
+//"GAME PAUSED\n\n" = "游戏暂停\n\n";
+//
+//" \n \n \nARE YOU READY?" = " \n \n \n准备好了么?";
+//
+//"RESUME" = "继续";
